@@ -18,7 +18,7 @@ color_codes = {
 SUPPORTED_COLORS = ",".join(color_codes.keys())
 
 # Get color from Environment variable
-COLOR_FROM_ENV = os.environ.get('APP_COLOR')
+COLOR_FROM_ENV = os.environ.get('APP_COLORHEXCODE')
 # Generate a random color
 COLOR = random.choice(["red", "green", "blue", "olive", "purple", "navy"])
 # Get dynamic title from Environment variable
